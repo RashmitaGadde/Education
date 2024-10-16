@@ -16,6 +16,7 @@ body{
 } 
 .hero{
     background-color: #000;
+    align-content: center;
 }
 .btn1{
     background-color:#2F373C;
@@ -29,7 +30,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px;}
+    }
     
 .ht1{
     font-weight: 500;
@@ -75,3 +76,84 @@ body{
 .text{
     font-weight: 800;
 }
+
+.htp{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.prog-texts{
+    /* height: 250px; */
+    /* width: 400px; */
+    background-color: #FF9540;
+    /* border-radius: 20px; */
+    color: #000;
+    /* padding: 20px; */
+    border: 1px solid #2F373C;
+}
+.lorem-txt{
+    background-color: aquamarine;
+    
+}
+
+.prog-testi{
+    border-radius: 20px;
+    border: 1px solid #2F373C;
+    
+}
+.heading-testi{
+    color: #000;
+    border-radius: 20px 20px 0 0;
+    background-color: #FFCA8E;
+    
+}
+.prog-ptxt{
+    color: #092B3E;
+
+}
+.body-testi{
+    color: #000;
+
+}
+.reviewer{
+    display: flex;
+    
+}
+.review-text{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .programs-btn{
+        gap: 10px;
+    }
+
+    .sec-box{
+        gap: 10px;}
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+.programs-btn{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+
+.sec-box{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+
+}
+}
+
+

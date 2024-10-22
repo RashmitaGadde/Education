@@ -155,7 +155,7 @@ body{
 }
 .img-97{
     position: absolute;
-    right: 170px
+    right: 166px;
 }
 
 .card-title{
@@ -179,10 +179,11 @@ body{
 .ptext{
     
     width: 30%;
+    padding-bottom: 50px;
 }
-.low-col{
+.thri-sec{
     height: 150px;
-    width: 300px;
+    
     background-color: #fff;
     border-radius: 15px;
     color: #000;
@@ -191,12 +192,102 @@ body{
 .lower-cont{
     display: flex;
     justify-content: space-around;
+
+}
+.rate-h{
+    color: #000;
+    padding-top: 50px;
+    text-align: center;
+}
+.rate-p{
+    color: #000;
+    text-transform: lowercase;
+}
+.rating{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+}
+.rate-hh{
+    color: #000;
+}
+.rate-pp{
+    color: #000;
+    padding-top: 20px;
+}
+.rate-hhhh{
+    color: #000;
+}
+.text-img-rate{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.conf{
+    background-color: #0A246F;
+    border-radius: 100px;
+    padding-left: 150px;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.boost-h{
+    color: #000;
+    text-align: center;
+}
+.boost-button{
+    text-align: center;
+    padding-top: 60px;
+    
+}
+.boost-btn{
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+    height: 50px;
+    width: 15%;
+    
+    
+  
 }
 
+@media (min-width: 1200px) and (max-width:1440px) {
+    
+    .img-97 {
+        position: absolute;
+        right: 136px;
+    }
+    .img-96 {
+        position: absolute;
+        top: 340px;
+        left: 550px;
+    }
+ }
 
 
+ @media (min-width: 992px) and (max-width:1024px)  {
 
-@media (min-width:768px) and (max-width:1024px){
+    
+    .bet-texts {
+        position: absolute;
+        top: 140px;
+        left: 150px;
+    }
+
+    .img-96 {
+        display: none;
+    }
+    .img-97{
+    position: absolute;
+    right: 70px;
+    }
+    .card-text{
+        width: 50%;
+    }
+
+ }
+
+
+@media (min-width:768px) and (max-width:990px){
     .programs-btn{
         gap: 10px;
     }
@@ -204,9 +295,41 @@ body{
     .sec-box{
         gap: 10px;}
 
+        .bet-texts {
+            position: absolute;
+            top: 100px;
+            left: 50px;
+        }
+        .card-title {
+            font-size: 20px;
+            padding-bottom: 15px;
+        }
+        .card-text {
+            width: 80%;
+        }
+        .img-96{
+            display: none;
+        }
+
+        .img-97{
+    position: absolute;
+    right: 55px;
+    width: 15%
+        }
+        .bet-h{
+            font-size: 25px;
+        }
+        .img-grp{
+            width: 50%;
+        }
+        .ptext {
+            width: 50%;
+        }
+    }
 
 
-}
+
+
 
 @media only screen and (max-width: 600px) {
 .programs-btn{
@@ -223,31 +346,43 @@ body{
     flex-direction: column;
     gap:20px;
     align-items: center;
+}
 
+.img-97 {
+    position: absolute;
+    right: 35px;
+    width: 15%;
 }
 .img-96{
     display: none;
 }
-.img-97{
-    display: none;
-}
+
 .img-grp{
     display: none;
 }
+.bet-texts{
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-left: 20px;
+    
+
+}
 .card-title{
-    position: absolute;
-    top: -174px;
-    font-size: 10px;
-    right: 234px;
-    width: 50%;
+    font-size: 14px;
+ margin-top: 30px;
+ padding-bottom: 0;
 }
 .card-text{
-    
+    font-size: 11px;
+    width: auto;
     
 }
-.bet-texts{
-    
-    
+.ptext {
+    width: 100%;
+}
+.conf{
+    padding-left: 80px;
 }
 }
 
